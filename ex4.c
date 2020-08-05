@@ -13,7 +13,6 @@ int main(){
 	fflush(stdout);
 	scanf("%s", name);
 	printf("Hello, %s!\n", name);
-	
 	//Heads or Tails
 	srand((unsigned int)time(NULL));
 
@@ -30,7 +29,7 @@ int main(){
 		}
 	}
 	printf("Heads: %d, Tails: %d\n", heads, tails);
-	
+
 	//Judgment
 	if(heads > tails) printf("%s won!\n", name);
 	else printf("%s lost!\n", name);
